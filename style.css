@@ -164,3 +164,80 @@ a {
     line-height: 36px;
     letter-spacing: 0;
 }
+
+
+.games {
+    position: relative;
+    overflow: hidden;
+    background-color: #202027;
+    color: #FFFFFF;
+    padding: 94px 0 144px;
+}
+
+.games__title {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.games__text {
+    width: 788px;
+    margin-top: 24px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.games__columns {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    margin-top: 72px;
+}
+
+.games__column {
+    display: flex;
+    width: 378px;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.game-card {
+    display: block;
+    width: 378px;
+    overflow: hidden;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    color: #202027;
+}
+
+.game-card__image {
+    display: block;
+    width: 378px;
+    height: 314px;
+    object-fit: cover;
+}
+
+.game-card__info {
+    min-height: 159px;
+    padding: 32px 32px 36px;
+}
+
+.game-card__number {
+    display: inline-flex;
+    align-items: center;
+    min-height: 36px;
+    padding: 8px 16px;
+    border-radius: 52px;
+    background-color: #F7F7F7;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 110%;
+}
+
+.game-card__title {
+    margin-top: 16px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 100%;
+}
