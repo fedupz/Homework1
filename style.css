@@ -444,6 +444,10 @@ a {
     line-height: 100%;
 }
 
+.hero__decor--right-mobile {
+    display: none;
+}
+
 @media (max-width: 767px) {
     .container {
         width: auto;
@@ -497,13 +501,16 @@ a {
         transform: none;
     }
 
-    .hero__decor--right {
-        display: block;
-        top: -18px;
-        right: -50px;
-        left: auto;
-        width: 245px;
-        height: auto;
+   .hero__decor--right {
+    display: none;
+    }
+
+    .hero__decor--right-mobile {
+    display: block;
+    top: 0;
+    right: 0;
+    width: 375px;
+    height: 200px;
     }
 
     .hero__decor--star-1 {
